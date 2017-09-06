@@ -19,6 +19,7 @@ GameTimer* GameTimer::create(TimerType value)
         node->autorelease();
         return node;
     }
+    // Noor chussar
     
     CC_SAFE_DELETE(node);
     return nullptr;
